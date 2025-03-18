@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 2 web development</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My  webpage</h1>
+    </header>
+
+    <main>
+        <!-- Ordered List -->
+        <section>
+            <h2>Ordered List</h2>
+            <ol type="I">
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+            </ol>
+        </section>
+
+        <!-- External Image -->
+        <section>
+            <h2>pexels.com Image</h2>
+            <img src="https://images.pexels.com/photos/15080054/pexels-photo-15080054/free-photo-of-a-woman-sitting-on-top-of-a-building-wearing-black.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sample Image" />
+        </section>
+
+        <!-- Contacts Table -->
+        <section>
+            <h2>Contacts</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bethwel Kiplagat</td>
+                        <td>511 - 40100Kisumu</td>
+                        <td>254759112532</td>
+                        <td>Kiplagatbethwelk@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Lawrence Ongaya</td>
+                        <td>457 - 2034 Kakamega</td>
+                        <td>25473475980</td>
+                        <td>larryongaya@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Nancy Jeruto</td>
+                        <td>511 - 40100 Kapsabet</td>
+                        <td>25472356719</td>
+                        <td>jerunancy1@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Alice Rono</td>
+                        <td>32345 Nairobi</td>
+                        <td>254723904578</td>
+                        <td>arono23@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Davis Bett</td>
+                        <td>255 Kapsabet</td>
+                        <td>254765885671</td>
+                        <td>bett254@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Registration Form -->
+        <section>
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br>
+
+                <label for="dropdown">Select an option:</label>
+                <select id="dropdown" name="dropdown" required>
+                    <option value="">Choose...</option>
+                    <option value="option1">Website development</option>
+                    <option value="option2">Software engineering</option>
+                </select><br>
+
+                <label>Choose your favorite:</label><br>
+                <input type="radio" id="radio1" name="favorite" value="option1" required>
+                <label for="radio1">GTA V</label><br>
+                <input type="radio" id="radio2" name="favorite" value="option2">
+                <label for="radio2">Need For Speed</label><br>
+
+                <label>Interests:</label><br>
+                <input type="checkbox" id="checkbox1" name="interest1" value="interest1">
+                <label for="checkbox1">Coding</label><br>
+                <input type="checkbox" id="checkbox2" name="interest2" value="interest2">
+                <label for="checkbox2">Mili-militia</label><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
